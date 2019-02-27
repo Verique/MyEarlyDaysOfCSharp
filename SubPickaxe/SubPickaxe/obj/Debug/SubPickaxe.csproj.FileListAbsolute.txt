@@ -1,0 +1,14 @@
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.exe.config
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.exe
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.pdb
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.csprojAssemblyReference.cache
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.csproj.CoreCompileInputs.cache
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.exe
+D:\Uchoba\Projects\SubPickaxe\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.pdb
+D:\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.csprojAssemblyReference.cache
+D:\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.csproj.CoreCompileInputs.cache
+D:\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.exe
+D:\SubPickaxe\SubPickaxe\obj\Debug\SubPickaxe.pdb
+D:\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.exe.config
+D:\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.exe
+D:\SubPickaxe\SubPickaxe\bin\Debug\SubPickaxe.pdb
