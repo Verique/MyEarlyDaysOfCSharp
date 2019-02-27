@@ -68,7 +68,7 @@ namespace SubPickaxe
     {
         static void ParseASSLine(string line, out string info, out string text)
         {
-            GroupCollection lineGroups = new Regex(@"(?<info>Dialogue:(.*?,){9})(?<text>.*)").Match(line).Groups;
+            GroupCollection lineGroups = new Regex(@"(?<info>.*?:(.*?,){9})(?<text>.*)").Match(line).Groups;
             info = lineGroups["info"].Value;
             text = lineGroups["text"].Value;
         }
