@@ -18,12 +18,7 @@ namespace SubPickaxe
         static string SRfication(string text)
         {
             string result = text;
-            Regex r = new Regex(@"^(?<info>.*?:(?:.*?,){9})
-                                (?:(?(?=(?<text>[^\{\}""]+))
-                                \k<text>|(?(?=(?<tag>\{.*?\}))
-                                \k<tag>|(?(?=(?<lcomma>""(?=\p{L})))
-                                \k<lcomma>|(?(?=(?<rcomma>(?<=[\p{L}\p{P}])""))
-                                \k<rcomma>|(?<unrecognised>.))))))+$");
+            Regex r = new Regex(@"^(?<info>.*?:(?:.*?,){9})(?:(?(?=(?<text>[^\{\}""]+))\k<text>|(?(?=(?<tag>\{.*?\}))\k<tag>|(?(?=(?<lcomma>""(?=\p{L})))\k<lcomma>|(?(?=(?<rcomma>(?<=[\p{L}\p{P}])""))\k<rcomma>|(?<unrecognised>.))))))+$");
             Match m = r.Match(text);
             foreach (Capture leftCap in m.Groups["lcomma"].Captures)
                 result = result.MyReplace("«", leftCap.Index);
